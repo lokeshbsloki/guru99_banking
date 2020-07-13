@@ -6,13 +6,19 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import com.inetbanking.genericlib.BaseClass;
+
+public class LoginPage extends BaseClass {
 
 	WebDriver ldriver;
 	
 	public LoginPage(WebDriver rdriver){
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
+	}
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+
 	}
 	
 	@FindBy(xpath="//input[@name='uid']")
@@ -37,8 +43,9 @@ public class LoginPage {
 		password.sendKeys(pwd);
 	}
 	
-	public void clickOnLoginBtn() {
+	public HomePage clickOnLoginBtn() {
 		loginbtn.click();
+		return new HomePage();
 	}
 	
 	

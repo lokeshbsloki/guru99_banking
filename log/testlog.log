@@ -1,35 +1,92 @@
-2020-07-11 21:39:39,087 - ebanking -INFO - url is launched
-2020-07-11 21:39:39,502 - ebanking -INFO - username entered
-2020-07-11 21:39:39,735 - ebanking -INFO - password entered
-2020-07-11 21:39:42,089 - ebanking -INFO - login page tests passed
-2020-07-11 22:17:04,242 - ebanking -INFO - url is launched
-2020-07-11 22:17:04,788 - ebanking -INFO - username entered
-2020-07-11 22:17:05,071 - ebanking -INFO - password entered
-2020-07-11 22:17:07,899 - ebanking -INFO - login page tests passed
-2020-07-11 22:48:54,911 - ebanking -INFO - url is launched
-2020-07-11 22:48:55,318 - ebanking -INFO - username entered
-2020-07-11 22:48:55,547 - ebanking -INFO - password entered
-2020-07-11 22:48:57,485 - ebanking -INFO - login page tests passed
-2020-07-11 22:49:41,999 - ebanking -INFO - url is launched
-2020-07-11 22:49:42,440 - ebanking -INFO - username entered
-2020-07-11 22:49:42,686 - ebanking -INFO - password entered
-2020-07-11 22:49:44,569 - ebanking -INFO - login page tests passed
-2020-07-11 22:50:34,027 - ebanking -INFO - url is launched
-2020-07-11 22:50:34,531 - ebanking -INFO - username entered
-2020-07-11 22:50:34,597 - ebanking -INFO - password entered
-2020-07-11 22:50:36,884 - ebanking -INFO - login page tests passed
-2020-07-11 22:53:09,135 - ebanking -INFO - url is launched
-2020-07-11 22:53:10,510 - ebanking -INFO - username entered
-2020-07-11 22:53:11,202 - ebanking -INFO - password entered
-2020-07-11 22:55:17,460 - ebanking -INFO - url is launched
-2020-07-11 22:55:17,985 - ebanking -INFO - username entered
-2020-07-11 22:55:18,242 - ebanking -INFO - password entered
-2020-07-11 22:55:20,535 - ebanking -INFO - login page tests passed
-2020-07-11 22:55:43,213 - ebanking -INFO - url is launched
-2020-07-11 22:55:43,392 - ebanking -INFO - username entered
-2020-07-11 22:55:43,485 - ebanking -INFO - password entered
-2020-07-11 22:55:45,840 - ebanking -INFO - login page tests passed
-2020-07-11 23:18:04,410 - ebanking -INFO - url is launched
-2020-07-11 23:18:04,929 - ebanking -INFO - username entered
-2020-07-11 23:18:05,146 - ebanking -INFO - password entered
-2020-07-11 23:18:07,268 - ebanking -INFO - login page tests passed
+2020-07-12 18:02:04,876 - ebanking -INFO - url is launched
+2020-07-12 18:02:05,804 - ebanking -INFO - username entered
+2020-07-12 18:02:06,066 - ebanking -INFO - password entered
+2020-07-12 18:04:19,400 - ebanking -INFO - url is launched
+2020-07-12 18:04:19,963 - ebanking -INFO - username entered
+2020-07-12 18:04:20,196 - ebanking -INFO - password entered
+2020-07-13 10:08:58,263 - ebanking -INFO - url is launched
+2020-07-13 10:10:39,160 - ebanking -INFO - url is launched
+2020-07-13 10:12:17,541 - ebanking -INFO - url is launched
+2020-07-13 10:12:20,987 - ebanking -INFO - username entered
+2020-07-13 10:12:21,248 - ebanking -INFO - password entered
+2020-07-13 10:12:28,240 - ebanking -WARN - invalid credentials
+2020-07-13 10:12:28,583 - ebanking -INFO - username entered
+2020-07-13 10:12:28,797 - ebanking -INFO - password entered
+2020-07-13 10:12:34,476 - ebanking -WARN - invalid credentials
+2020-07-13 10:12:35,019 - ebanking -INFO - username entered
+2020-07-13 10:12:35,288 - ebanking -INFO - password entered
+2020-07-13 10:12:41,547 - ebanking -WARN - invalid credentials
+2020-07-13 10:12:41,895 - ebanking -INFO - username entered
+2020-07-13 10:12:42,095 - ebanking -INFO - password entered
+2020-07-13 10:12:47,983 - ebanking -WARN - invalid credentials
+2020-07-13 10:12:48,288 - ebanking -INFO - username entered
+2020-07-13 10:12:48,520 - ebanking -INFO - password entered
+2020-07-13 10:12:54,362 - ebanking -WARN - invalid credentials
+2020-07-13 10:16:34,594 - ebanking -INFO - url is launched
+2020-07-13 10:16:36,906 - ebanking -INFO - username entered
+2020-07-13 10:16:37,090 - ebanking -INFO - password entered
+2020-07-13 10:16:44,481 - ebanking -WARN - invalid credentials
+2020-07-13 10:16:44,824 - ebanking -INFO - username entered
+2020-07-13 10:16:45,046 - ebanking -INFO - password entered
+2020-07-13 10:16:51,958 - ebanking -WARN - invalid credentials
+2020-07-13 10:16:52,259 - ebanking -INFO - username entered
+2020-07-13 10:16:52,490 - ebanking -INFO - password entered
+2020-07-13 10:16:59,338 - ebanking -WARN - invalid credentials
+2020-07-13 10:16:59,629 - ebanking -INFO - username entered
+2020-07-13 10:16:59,846 - ebanking -INFO - password entered
+2020-07-13 10:17:06,780 - ebanking -WARN - invalid credentials
+2020-07-13 10:17:07,078 - ebanking -INFO - username entered
+2020-07-13 10:17:07,301 - ebanking -INFO - password entered
+2020-07-13 10:17:14,226 - ebanking -WARN - invalid credentials
+2020-07-13 10:29:28,500 - ebanking -INFO - url is launched
+2020-07-13 10:29:29,193 - ebanking -INFO - username entered
+2020-07-13 10:29:29,440 - ebanking -INFO - password entered
+2020-07-13 10:29:43,204 - ebanking -INFO - url is launched
+2020-07-13 10:29:45,481 - ebanking -INFO - username entered
+2020-07-13 10:29:45,666 - ebanking -INFO - password entered
+2020-07-13 10:29:57,027 - ebanking -WARN - invalid credentials
+2020-07-13 10:29:57,284 - ebanking -INFO - username entered
+2020-07-13 10:29:57,496 - ebanking -INFO - password entered
+2020-07-13 10:30:19,851 - ebanking -INFO - username entered
+2020-07-13 10:30:20,057 - ebanking -INFO - password entered
+2020-07-13 10:30:25,864 - ebanking -WARN - invalid credentials
+2020-07-13 10:30:26,160 - ebanking -INFO - username entered
+2020-07-13 10:30:26,379 - ebanking -INFO - password entered
+2020-07-13 10:30:32,518 - ebanking -WARN - invalid credentials
+2020-07-13 10:30:32,842 - ebanking -INFO - username entered
+2020-07-13 10:30:33,077 - ebanking -INFO - password entered
+2020-07-13 10:30:39,137 - ebanking -WARN - invalid credentials
+2020-07-13 16:13:32,346 - ebanking -INFO - url is launched
+2020-07-13 16:20:33,239 - ebanking -INFO - url is launched
+2020-07-13 16:20:33,839 - ebanking -INFO - username entered
+2020-07-13 16:20:34,070 - ebanking -INFO - password entered
+2020-07-13 16:26:16,799 - ebanking -INFO - url is launched
+2020-07-13 17:23:44,688 - ebanking -INFO - url is launched
+2020-07-13 17:23:47,618 - ebanking -INFO - username entered
+2020-07-13 17:23:47,819 - ebanking -INFO - password entered
+2020-07-13 17:24:19,801 - ebanking -WARN - invalid credentials
+2020-07-13 17:51:53,990 - ebanking -INFO - url is launched
+2020-07-13 17:51:54,521 - ebanking -INFO - username entered
+2020-07-13 17:51:54,740 - ebanking -INFO - password entered
+2020-07-13 17:51:58,556 - ebanking -INFO - login page tests passed
+2020-07-13 17:52:10,540 - ebanking -INFO - url is launched
+2020-07-13 18:23:13,526 - ebanking -INFO - url is launched
+2020-07-13 18:23:14,432 - ebanking -INFO - username entered
+2020-07-13 18:23:14,667 - ebanking -INFO - password entered
+2020-07-13 18:23:17,430 - ebanking -INFO - login page tests passed
+2020-07-13 18:23:30,800 - ebanking -INFO - url is launched
+2020-07-13 18:30:18,779 - ebanking -INFO - url is launched
+2020-07-13 18:30:19,530 - ebanking -INFO - username entered
+2020-07-13 18:30:19,801 - ebanking -INFO - password entered
+2020-07-13 18:30:22,723 - ebanking -INFO - login page tests passed
+2020-07-13 18:30:36,321 - ebanking -INFO - url is launched
+2020-07-13 20:50:24,712 - ebanking -INFO - url is launched
+2020-07-13 20:50:27,024 - ebanking -INFO - username entered
+2020-07-13 20:50:27,281 - ebanking -INFO - password entered
+2020-07-13 20:50:31,421 - ebanking -INFO - login page tests passed
+2020-07-13 20:50:48,887 - ebanking -INFO - url is launched
+2020-07-13 21:27:56,890 - ebanking -INFO - url is launched
+2020-07-13 21:27:57,916 - ebanking -INFO - username entered
+2020-07-13 21:27:58,167 - ebanking -INFO - password entered
+2020-07-13 21:28:00,628 - ebanking -INFO - login page tests passed
+2020-07-13 21:28:15,674 - ebanking -INFO - url is launched

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-InetBankingV1">
-              <span class="suite-name border-passed">InetBankingV1</span>
+              <span class="suite-name border-failed">InetBankingV1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-InetBankingV1">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,  5 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-InetBankingV1" class="hide-methods failed suite-InetBankingV1"> (hide)</a> <!-- hide-methods failed suite-InetBankingV1 -->
+                      <a href="#" panel-name="suite-InetBankingV1" class="show-methods failed suite-InetBankingV1"> (show)</a> <!-- show-methods failed suite-InetBankingV1 -->
+                    </span>
+                    <div class="method-list-content failed suite-InetBankingV1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginPage_001" hash-for-method="loginPageTests">loginPageTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-InetBankingV1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-InetBankingV1" class="hide-methods skipped suite-InetBankingV1"> (hide)</a> <!-- hide-methods skipped suite-InetBankingV1 -->
+                      <a href="#" panel-name="suite-InetBankingV1" class="show-methods skipped suite-InetBankingV1"> (show)</a> <!-- show-methods skipped suite-InetBankingV1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-InetBankingV1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginDDT_002" hash-for-method="LoginDDT">LoginDDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginDDT_002" hash-for-method="LoginDDT">LoginDDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginDDT_002" hash-for-method="LoginDDT">LoginDDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginDDT_002" hash-for-method="LoginDDT">LoginDDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginDDT_002" hash-for-method="LoginDDT">LoginDDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-InetBankingV1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +150,7 @@
                     <div class="method-list-content passed suite-InetBankingV1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_LoginPage_001" hash-for-method="loginPageTests">loginPageTests</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetbanking.testcases.TC_NewCustomer_003" hash-for-method="newCustomerTest">newCustomerTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-InetBankingV1 -->
@@ -117,9 +165,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-InetBankingV1" class="panel InetBankingV1">
-          <div class="suite-InetBankingV1-class-passed">
+          <div class="suite-InetBankingV1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.inetbanking.testcases.TC_LoginPage_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,6 +176,159 @@
                   <a name="loginPageTests">
                   </a> <!-- loginPageTests -->
                   <span class="method-name">loginPageTests</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [GTPL Bank Manager HomePage lok] but found [GTPL Bank Manager HomePage]
+	at com.inetbanking.testcases.TC_LoginPage_001.loginPageTests(TC_LoginPage_001.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InetBankingV1-class-failed -->
+          <div class="suite-InetBankingV1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.inetbanking.testcases.TC_LoginDDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDDT">
+                  </a> <!-- LoginDDT -->
+                  <span class="method-name">LoginDDT</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.652
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LOKESHBS&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47b3ae7260e633728d59c37465054b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.inetbanking.genericlib.BaseClass.setUp(BaseClass.java:52)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDDT">
+                  </a> <!-- LoginDDT -->
+                  <span class="method-name">LoginDDT</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.652
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LOKESHBS&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47b3ae7260e633728d59c37465054b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.inetbanking.genericlib.BaseClass.setUp(BaseClass.java:52)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDDT">
+                  </a> <!-- LoginDDT -->
+                  <span class="method-name">LoginDDT</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.652
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LOKESHBS&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47b3ae7260e633728d59c37465054b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.inetbanking.genericlib.BaseClass.setUp(BaseClass.java:52)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDDT">
+                  </a> <!-- LoginDDT -->
+                  <span class="method-name">LoginDDT</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.652
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LOKESHBS&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47b3ae7260e633728d59c37465054b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.inetbanking.genericlib.BaseClass.setUp(BaseClass.java:52)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDDT">
+                  </a> <!-- LoginDDT -->
+                  <span class="method-name">LoginDDT</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.652
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LOKESHBS&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47b3ae7260e633728d59c37465054b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.inetbanking.genericlib.BaseClass.setUp(BaseClass.java:52)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InetBankingV1-class-skipped -->
+          <div class="suite-InetBankingV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.inetbanking.testcases.TC_NewCustomer_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newCustomerTest">
+                  </a> <!-- newCustomerTest -->
+                  <span class="method-name">newCustomerTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,6 +350,8 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.inetbanking.testcases.TC_LoginPage_001&quot;/&gt;
+      &lt;class name=&quot;com.inetbanking.testcases.TC_LoginDDT_002&quot;/&gt;
+      &lt;class name=&quot;com.inetbanking.testcases.TC_NewCustomer_003&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- BankingApp Test --&gt;
 &lt;/suite&gt; &lt;!-- InetBankingV1 --&gt;
@@ -162,7 +365,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">BankingApp Test (1 class)</span>
+                <span class="test-name">BankingApp Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -172,6 +375,14 @@
             <span class="header-content">Groups for InetBankingV1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">lok</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginDDT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-InetBankingV1" class="panel">
@@ -188,16 +399,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginPageTests')
-data.setCell(0, 2, 'com.inetbanking.testcases.TC_LoginPage_001')
-data.setCell(0, 3, 2833);
+data.setCell(0, 1, 'newCustomerTest')
+data.setCell(0, 2, 'com.inetbanking.testcases.TC_NewCustomer_003')
+data.setCell(0, 3, 31849);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPageTests')
+data.setCell(1, 2, 'com.inetbanking.testcases.TC_LoginPage_001')
+data.setCell(1, 3, 10366);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginDDT')
+data.setCell(2, 2, 'com.inetbanking.testcases.TC_LoginDDT_002')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginDDT')
+data.setCell(3, 2, 'com.inetbanking.testcases.TC_LoginDDT_002')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginDDT')
+data.setCell(4, 2, 'com.inetbanking.testcases.TC_LoginDDT_002')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginDDT')
+data.setCell(5, 2, 'com.inetbanking.testcases.TC_LoginDDT_002')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginDDT')
+data.setCell(6, 2, 'com.inetbanking.testcases.TC_LoginDDT_002')
+data.setCell(6, 3, 0);
 window.suiteTableData['InetBankingV1']= { tableData: data, tableDiv: 'times-div-InetBankingV1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-InetBankingV1">
               </div> <!-- times-div-InetBankingV1 -->
             </div> <!-- times-div -->
@@ -229,12 +464,62 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginPageTests</span>
-                <span class="method-start">13755 ms</span>
+                <span class="method-start">46021 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16621 ms</span>
+                <span class="method-start">57066 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetbanking.testcases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">57752 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginDDT</span>
+                <span class="method-start">364603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginDDT</span>
+                <span class="method-start">364617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginDDT</span>
+                <span class="method-start">364626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginDDT</span>
+                <span class="method-start">364640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginDDT</span>
+                <span class="method-start">364649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">364668 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetbanking.testcases.TC_NewCustomer_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">364678 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">newCustomerTest</span>
+                <span class="method-start">389554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">421407 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

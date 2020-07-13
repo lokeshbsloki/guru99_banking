@@ -1,5 +1,6 @@
 package com.inetbanking.genericlib;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -10,9 +11,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
 import com.inetbanking.utilities.ReadConfig;
+import com.inetbanking.utilities.XLUtils;
 
 public class BaseClass {
 
@@ -24,7 +27,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger log;
 
-	@Parameters("browser")
+	@Parameters("browser")  
 	@BeforeClass
 	public void setUp(String br) {
 
@@ -41,6 +44,7 @@ public class BaseClass {
 			System.setProperty("webdriver.ie.driver",readconfig.getIEPath());
 			driver=new InternetExplorerDriver();
 		}
+		
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -56,5 +60,7 @@ public class BaseClass {
 
 		driver.quit();
 	}
+	
+
 
 }
